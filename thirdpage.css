@@ -1,0 +1,207 @@
+body{
+    background-color: black;
+}
+/* #firstpage{
+    
+    position: absolute;
+    background-image: url(./background.webp) ;
+    width: 101%;
+    height: 100%;
+    margin: -8px -8px;
+} */
+.left{
+    color: white;
+    /* border: 2px solid white; */
+    position: absolute;
+    width: 142px ;
+    margin: 19px 28px;
+    height: 58px;
+
+}
+.left img{
+    height: 57px;
+    width:143px;
+
+}
+.mid{
+    color: white;
+    /* border: 2px solid white; */
+    /* position: absolute; */
+    width: 836px ;
+    margin: 19px 337px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 12px;
+    margin: 3px 3px;
+    font-size: 1.8rem;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    font-size: 2rem;
+    color: antiquewhite;
+}
+.right{
+    color: white;
+    /* border: 2px solid white; */
+    width: 117px ;
+    margin: -78px 1370px;
+    height: 38px;
+    border-radius: 12px;
+}
+.btn{
+    height: 38px;
+    width: 117px ;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgb(197, 25, 111);
+    color: white;
+    margin: 22px 3px;
+    
+}
+.btn:hover{
+    text-decoration: underline;
+    font-size: large;
+    background-color: white;
+    color: black;
+}
+
+/* thirdpage */
+#thirdpage{
+    margin: 181px 100px;
+    padding: 49px 39px;
+    height: 261px;
+    width: 1300px;
+}
+.heading h1{
+    color: white;
+    font-size: 2.8rem;
+    margin: -45px 3px;
+    padding: 3px 3px;
+    text-align: center;
+}
+.cont1{
+    color: white;
+    border: 2px solid rgb(44 40 40);
+    
+    margin: 3px 3px;
+    padding: 3px 3px;
+    position: absolute;
+    top: 260px;
+    left: 203px;
+    height: 283px;
+    width: 266px;
+    background-color: rgb(44 40 40);
+    border-radius: 8px;
+}
+.cont2{
+    color: white;
+    border: 2px solid rgb(44 40 40);
+    margin: 3px 3px;
+    padding: 3px 3px;
+    position: absolute;
+    top: 260px;
+    left: 584px;
+    height: 283px;
+    width: 266px;
+    background-color: rgb(44 40 40);
+    border-radius: 8px;
+}
+
+.cont3{
+    color: white;
+    border: 2px solid rgb(44 40 40);
+    margin: 3px 3px;
+    padding: 3px 3px;
+    position: absolute;
+    top: 262px;
+    left: 960px;
+    height: 283px;
+    width: 266px;
+    background-color: rgb(44 40 40);
+    border-radius: 8px;
+}
+.cont1 img{
+    height: 104px;
+    width: 129px;
+    margin: 3px 3px;
+    padding: 3px 61px;
+    
+}
+.cont2 img{
+    height: 64px;
+    width: 68px;
+    margin: 10px 3px;
+    padding: 3px 104px;
+}
+.cont3 img{
+    height: 64px;
+    width: 68px;
+    margin: 10px 3px;
+    padding: 3px 104px;
+}
+.cont1 p{
+    margin: 3px 3px;
+    padding: 3px 3px;
+    text-align: center;
+}
+.cont2 p{
+    margin: 3px 3px;
+    padding: 28px 3px;
+    text-align: center;
+}
+.cont3 p{
+    margin: 3px 3px;
+    padding: 28px 3px;
+    text-align: center;
+}
+.bt1{
+    margin: 27px 80px;
+    padding: 3px 3px;
+    height: 30px;
+    width: 93px;
+    cursor: pointer;
+    background-color:  rgb(197, 25, 111);
+    color: white;
+    border-radius: 12px;
+}
+.bt2{
+    margin: 3px 80px;
+    padding: 3px 3px;
+    height: 30px;
+    width: 93px;
+    cursor: pointer;
+    background-color:  rgb(197, 25, 111);
+    color: white;
+    border-radius: 12px;
+}
+.bt3{
+    margin: 3px 80px;
+    padding: 3px 3px;
+    height: 30px;
+    width: 93px;
+    cursor: pointer;
+    background-color:  rgb(197, 25, 111);
+    color: white;
+    border-radius: 12px;
+}
+.bt1:hover{
+    background-color: white;
+    color: black;
+}
+.bt2:hover{
+    background-color: white;
+    color: black;
+}
+.bt3:hover{
+    background-color: white;
+    color: black;
+}
